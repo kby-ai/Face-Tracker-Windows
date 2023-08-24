@@ -6,8 +6,12 @@
 
 # Face Tracking C++ Demo on Windows
 ## Overview
-We implemented real-time Face Tracking technology in this demo project.
-This project can be built on Visual Studio and model inference was implmented for web camera and real-time video streaming
+We implemented real-time face-tracking technology in this demo project.
+This project can be built on Visual Studio and model inference was implemented for web camera and real-time video streaming
+
+
+
+https://github.com/kby-ai/KBY-AI-Technology-Face-Tracker-Windows/assets/125717930/35940547-eda8-464d-83cc-75dd6246cc9d
 
 
 ## Improvement
