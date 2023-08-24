@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\detection">
+      <UniqueIdentifier>{108233af-cbea-4875-aad6-d8648c9f751b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\detection">
+      <UniqueIdentifier>{7c26fedc-5521-4a30-9125-627775ebe883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\face_feature">
+      <UniqueIdentifier>{d8f4279a-cc46-48ce-9484-7f5b39b76f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\face_feature">
+      <UniqueIdentifier>{22b209d3-4584-4290-929e-5306e36faad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\face_modeling">
+      <UniqueIdentifier>{4117de3b-e84e-44ac-8708-ded4309cada2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\face_modeling">
+      <UniqueIdentifier>{5d460bc3-b033-4e98-9c45-4a77a2e7aca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\track">
+      <UniqueIdentifier>{5829c66c-90c3-4a3f-a6bc-f0e912fbb147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\track">
+      <UniqueIdentifier>{c821b5a4-4595-4ce8-8e40-79ca0bf4137f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{ec519cba-348c-4ed2-ac69-b73d01705d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\face_pose">
+      <UniqueIdentifier>{d7ec0d7b-963d-4238-abf0-9d1310c2ebae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detection\face_detector.cpp">
+      <Filter>Source Files\detection</Filter>
+    </ClCompile>
+    <ClCompile Include="face_modeling\face_landmark.cpp">
+      <Filter>Source Files\face_modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="face_modeling\vanila_model.cpp">
+      <Filter>Source Files\face_modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="face_tracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="face_feature\face_feature.cpp">
+      <Filter>Source Files\face_feature</Filter>
+    </ClCompile>
+    <ClCompile Include="track\Hungarian.cpp">
+      <Filter>Source Files\track</Filter>
+    </ClCompile>
+    <ClCompile Include="track\kalman.cpp">
+      <Filter>Source Files\track</Filter>
+    </ClCompile>
+    <ClCompile Include="track\metrics.cpp">
+      <Filter>Source Files\track</Filter>
+    </ClCompile>
+    <ClCompile Include="track\PoseEstimation.cpp">
+      <Filter>Source Files\track</Filter>
+    </ClCompile>
+    <ClCompile Include="track\tracker.cpp">
+      <Filter>Source Files\track</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detection\face_detector.h">
+      <Filter>Header Files\detection</Filter>
+    </ClInclude>
+    <ClInclude Include="definition.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="face_modeling\face_landmark.h">
+      <Filter>Header Files\face_modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="face_modeling\vanila_model.h">
+      <Filter>Header Files\face_modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="face_modeling\vanl.id.h">
+      <Filter>Header Files\face_modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\base.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\base_func.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="face_tracker.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="face_feature\face_feature.h">
+      <Filter>Header Files\face_feature</Filter>
+    </ClInclude>
+    <ClInclude Include="track\data_def.h">
+      <Filter>Header Files\track</Filter>
+    </ClInclude>
+    <ClInclude Include="track\Hungarian.h">
+      <Filter>Header Files\track</Filter>
+    </ClInclude>
+    <ClInclude Include="track\kalman.h">
+      <Filter>Header Files\track</Filter>
+    </ClInclude>
+    <ClInclude Include="track\metrics.h">
+      <Filter>Header Files\track</Filter>
+    </ClInclude>
+    <ClInclude Include="track\PoseEstimation.h">
+      <Filter>Header Files\track</Filter>
+    </ClInclude>
+    <ClInclude Include="track\tracker.h">
+      <Filter>Header Files\track</Filter>
+    </ClInclude>
+    <ClInclude Include="face_pose\base_func.h">
+      <Filter>Header Files\face_pose</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
