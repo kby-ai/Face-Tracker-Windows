@@ -4,6 +4,11 @@
   </a>  
 </p>
 
+#### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
+#### 🛟 Help Center - [Here](https://docs.kby-ai.com)
+#### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
+#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
+
 # Face Tracking C++ Demo on Windows
 ## Overview
 We implemented real-time face-tracking technology in this demo project.
@@ -16,17 +21,13 @@ https://github.com/kby-ai/KBY-AI-Technology-Face-Tracker-Windows/assets/12571793
 
 ## Improvement
 
-This project can be improved by using kby-ai's face recognition SDK. The SDK requires a license.
+This project can be improved by using KBY-AI's face recognition SDK [here](https://github.com/kby-ai/Face-Recognition-SDK)
 
-- To request a license, please contact us:
+- To request SDK, please contact us:
 ```
 Email: contact@kby-ai.com
-
 Telegram: @kbyai
-
 WhatsApp: +19092802609
-
 Skype: live:.cid.66e2522354b1049b
-
 Facebook: https://www.facebook.com/KBYAI
 ```
